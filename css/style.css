@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+#card {
+    background: hsl(216, 50%, 16%);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 570px;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.down .equb {
+    color: hsl(178, 100%, 50%);
+}
+
+.down .clock {
+    color: hsl(215, 51%, 70%);
+
+}
+
+img {
+    border-radius: 10px;
+}
+
+.credits {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 2rem;
+    border-top: 1px solid cornflowerblue;
+    padding-top: 1.01rem;
+}
+
+/* hoover */
+h1:hover {
+    color: hsl(178, 100%, 50%);
+
+    cursor: pointer;
+}
+
+
+.m-img:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+
+/*  */
+.credits {
+    color: hsl(215, 51%, 70%);
+}
+
+.credits span {
+    color: #fff;
+}
+
+.attribution {
+    padding-top: 1rem;
+}
