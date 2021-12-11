@@ -40,7 +40,8 @@ p {
 
 .down .clock {
     color: hsl(215, 51%, 70%);
-
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 img {
